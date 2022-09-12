@@ -1,0 +1,12 @@
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  img {
+  justify-content: space-around;
+  margin: 8px;
+  border-radius: 4px;
+  padding: 8px;
+  }
+}

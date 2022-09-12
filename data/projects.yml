@@ -1,19 +1,19 @@
-- name: Longest Word Game
+- name: A practice landingpage
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
 
-- name: Movie Watchlist
+- name: Movie Watchlist - Personal project
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
 
-- name: Airbnb
+- name: Spaced - Marketplace project
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
 
-- name: Final project
+- name: Givr - Final project
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
