@@ -11,3 +11,10 @@
   justify-content: center;
   transform: rotate(20deg);
 }
+
+@media (min-width: 100px) and (max-width: 764px) {
+  .avatar {
+    height: 150px;
+    width: 150px;
+  }
+}
