@@ -1,5 +1,5 @@
 .background {
-  background: linear-gradient(180deg, rgba(255, 180, 231, 0.326) 0%, rgba(255, 255, 255, 0) 100%), url(../images/background.jpg);
+  background: linear-gradient(180deg, rgba(195, 255, 180, 0.5) 0%, rgba(255, 255, 255, 0) 100%), url(../images/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +19,23 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.left-border {
   margin-left: 8%;
+  border-left: 2px solid black;
+  padding-left: 16px;
+}
+
+.title {
+  text-shadow: rgb(255, 255, 255) 4px 4px;
+  font-size: 75px;
+  margin-top: -30px
+}
+
+.sub-title {
+  font-size: 25px;
+  margin-left: 4px;
 }
 
 .right-content {
@@ -30,9 +46,11 @@
 
 .links {
   display: flex;
+  margin-top: 20px;
+  margin-left: 4px;
 
   .icon {
-    margin-right: 8px;
+    margin-right: 24px;
     font-size: 32px;
   }
   .icon:hover {

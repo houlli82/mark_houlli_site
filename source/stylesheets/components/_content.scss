@@ -6,16 +6,17 @@
 }
 
 .text-box {
-  background-color: rgb(214,182,248);
+  background-color: #c5f1d9;
   border-radius: 8px;
   padding: 8px;
   text-align: center;
 }
 
 .paragraph {
+  border-top-left-radius: 90% 100%;
+  border-top-right-radius: 90% 100%;
   background-color: rgb(244, 236, 247);
   margin-top: -25px;
-  border-radius: 8px;
   padding: 16px;
   margin-bottom: 16px;
 }
