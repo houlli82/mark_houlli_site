@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100%;
 }
 
 .header {
@@ -15,11 +16,16 @@
 
 .left-content {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-left: 8%;
 }
 
 .right-content {
-  // align-items: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .links {
@@ -30,7 +36,7 @@
     font-size: 32px;
   }
   .icon:hover {
-    color: #1e6bff;
+    color: #831eff;
     cursor: pointer;
   }
 }
