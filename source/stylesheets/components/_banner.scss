@@ -1,5 +1,5 @@
 .background {
-  background: linear-gradient(180deg, rgba(195, 255, 180, 0.5) 0%, rgba(255, 255, 255, 0) 100%), url(../images/background.jpg);
+  background: url(/images/layered-waves-haikei.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +22,7 @@
 }
 
 .left-border {
-  margin-left: 8%;
+  margin-left: 24%;
   border-left: 2px solid black;
   padding-left: 16px;
 }
@@ -52,9 +52,11 @@
   .icon {
     margin-right: 24px;
     font-size: 32px;
+    transition: 0.9s;
   }
   .icon:hover {
-    color: #831eff;
+    color: rgb(255, 255, 255);
     cursor: pointer;
+    transition: 0.3s;
   }
 }
