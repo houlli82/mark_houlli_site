@@ -4,12 +4,20 @@
 }
 
 .about-heading-container {
-  background-color: rgb(206,211,254);
-  padding: 8px;
+  background-color: rgb(218,230,255);
+  padding: 16px;
   text-align: center;
+  color: black;
+  font-size: 28px;
 }
 
 .about-paragraph {
-  background-color: rgb(206,211,254);
-  padding: 16px;
+  background-color: rgb(218,230,255);
+  padding-bottom: 24px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.paragraph-text {
+  color: black;
 }
