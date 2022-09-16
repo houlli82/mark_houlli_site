@@ -27,14 +27,23 @@
   padding-left: 16px;
 }
 
+.hello {
+  font-size: 32px;
+  margin-left: 4px;
+  margin-bottom: 16px;
+  margin-top: -8px;
+  color: rgb(70, 67, 255);
+  text-shadow: rgb(255, 255, 255) 2px 2px;
+}
+
 .title {
   text-shadow: rgb(255, 255, 255) 4px 4px;
-  font-size: 75px;
+  font-size: 72px;
   margin-top: -30px
 }
 
 .sub-title {
-  font-size: 25px;
+  font-size: 24px;
   margin-left: 4px;
 }
 
@@ -50,12 +59,13 @@
   margin-left: 4px;
 
   .icon {
+    color: black;
     margin-right: 24px;
     font-size: 32px;
-    transition: 0.9s;
+    transition: 0.3s;
   }
   .icon:hover {
-    color: rgb(220,252,231);
+    color: rgb(70,67,255);
     cursor: pointer;
     transition: 0.3s;
   }

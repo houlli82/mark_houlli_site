@@ -1,11 +1,10 @@
 .footer-container {
-  border-top: 0.5px solid rgb(142, 142, 179);
-  background-color: rgb(180, 179, 230);
-  text-align: center;
-  height: 56px;
   display: flex;
+  align-items: center;
   justify-content: center;
-  flex-direction: column;
+  background: white;
+  padding-right: 24px;
+  height: 56px;
 }
 
 .footer-text {

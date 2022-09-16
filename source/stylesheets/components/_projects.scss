@@ -1,18 +1,15 @@
-.projects-heading-container {
-  display: flex;
-  justify-content: center;
-}
-
-.projects-heading-text {
+.projects-heading {
   background-color: rgb(203,202,254);
-  padding: 16px;
+  padding-top: 16px;
   text-align: center;
   color: black;
+  text-shadow: rgb(255, 255, 255) 2px 2px;
   font-size: 28px;
 }
 
 .projects-paragraph {
   background-color: rgb(203,202,254);
-  padding: 16px;
+  padding-left: 8%;
+  padding-right: 8%;
   padding-bottom: 32px;
 }

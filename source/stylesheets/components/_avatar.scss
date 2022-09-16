@@ -1,6 +1,6 @@
 .avatar {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   background-color: white;
   border: 8px solid white;
@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   transform: rotate(20deg);
+  box-shadow: 8px 8px rgb(170, 192, 238);
 }
 
 @media (min-width: 100px) and (max-width: 764px) {

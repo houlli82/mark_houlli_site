@@ -1,23 +1,45 @@
 .about-heading {
+  font-size: 28px;
+  margin-bottom: 16px;
+  text-shadow: rgb(255, 255, 255) 2px 2px;
+}
+
+.about-body {
+  margin-top: -48px;
+  display: flex;
+  background-color: rgb(218,230,255);
+}
+
+.about-right {
+  width: 50%;
   display: flex;
   justify-content: center;
-}
+  margin-right: 12%;
+  align-items: center;
 
-.about-heading-container {
-  background-color: rgb(218,230,255);
-  padding: 16px;
-  text-align: center;
-  color: black;
-  font-size: 28px;
-}
-
-.about-paragraph {
-  background-color: rgb(218,230,255);
-  padding-bottom: 24px;
-  padding-left: 100px;
-  padding-right: 100px;
+  p {
+    line-height: 32px;
+  }
 }
 
 .paragraph-text {
   color: black;
+}
+
+.about-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-picture {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border: 8px solid white;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  box-shadow: 8px 8px rgb(170, 192, 238);
+  margin-bottom: 48px;
 }
