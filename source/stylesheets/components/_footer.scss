@@ -1,13 +1,36 @@
 .footer-container {
   display: flex;
   align-items: center;
-  justify-content: center;
   background: white;
-  padding-right: 24px;
-  height: 56px;
+  padding-top: 24px;
+  padding-bottom: 16px
 }
 
 .footer-text {
   text-decoration: none;
   color: black;
+  padding-top: 8px;
+}
+
+.left-footer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.logo-footer {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 16px;
+}
+
+.right-footer {
+  border-left: 1px solid black;
+  padding-left: 40px;
+
+  p {
+    line-height: 12px;
+  }
 }

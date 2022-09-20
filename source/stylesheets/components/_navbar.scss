@@ -1,13 +1,14 @@
-.navbar {
+.mark-navbar {
   display: flex;
-
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   background: white;
   padding-right: 24px;
   height: 56px;
   ul {
     list-style: none;
+    margin-top: 16px;
+    justify-content: space-around;
   }
   li {
     display: inline;
@@ -18,4 +19,13 @@
     font-size: 24px;
     padding-left: 24px;
   }
+}
+
+.logo-container {
+  padding-left: 24px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
 }
