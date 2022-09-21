@@ -24,6 +24,7 @@
 
 .paragraph-text {
   color: black;
+  padding-left: 16px;
 }
 
 .about-left {
@@ -35,7 +36,6 @@
 .about-picture {
   height: 300px;
   width: 300px;
-  padding: 16px;
   background-color: white;
   border: 8px solid white;
   object-fit: cover;
