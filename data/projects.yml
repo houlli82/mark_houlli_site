@@ -1,14 +1,14 @@
-- name: Givr - Final project
-  description: Demo-day app I made with  my team at Le Wagon
+- name: Watowatch
+  description: App I made to get to grips with React components.
   image: projects/React-movie-site.png
   url: https://tv-show-adviser-22zectuqz-houlli83.vercel.app/
 
-- name: Spaced - Marketplace project
-  description: A marketplace app I built with my team at Le Wagon
-  image: projects/Spaced.png
-  url: https://spaced-848.herokuapp.com/
+- name: Monster Rolodex
+  description: An app I built to practice with API's in React.
+  image: projects/monster-rolodex.png
+  url: https://houlli82.github.io/Monster-Rolodex/
 
-- name: Movie Watchlist - Personal project
-  description: An app I built myself using Ruby on Rails
+- name: Movie Watchlist
+  description: An app I built using Ruby on Rails.
   image: projects/Watch-list.png
   url: https://mark-watch-list-848.herokuapp.com/lists
